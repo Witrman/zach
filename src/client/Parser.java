@@ -9,6 +9,8 @@ class Parser {
 
         List<String> result = new ArrayList<>();
         String[] slitted = string.split(" ");
+
+
         result.add(slitted[0]);
         StringBuilder sb = new StringBuilder();
         boolean inside = false;

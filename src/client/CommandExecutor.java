@@ -85,7 +85,7 @@ public class CommandExecutor {
         newPath = combinePaths(currentPath, newPath);
 
         if (newPath.equals(currentPath)) {
-            System.out.println("can't delete current directory");
+            System.out.println("can't delete directory");
             return currentPath;
         }
 
